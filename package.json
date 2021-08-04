@@ -1,0 +1,29 @@
+{
+  "name": "bookstore_api",
+  "version": "1.0.0",
+  "description": "Express and Prisma REST api",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.js",
+    "start":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aggreyeric/bookstore_api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aggreyeric/bookstore_api/issues"
+  },
+  "homepage": "https://github.com/aggreyeric/bookstore_api#readme",
+  "dependencies": {
+    "@prisma/client": "^2.28.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "prisma": "^2.28.0"
+  }
+}
